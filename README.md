@@ -1,15 +1,15 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/cryptonotefoundation/cryptonotewallet.git
+git clone https://github.com/CoreLedger/yttrium-wallet.git
 ```
 
 **2. Modify `CryptoNoteWallet.cmake`**
  
 ```
-set(CN_PROJECT_NAME "furiouscoin")
-set(CN_CURRENCY_DISPLAY_NAME "FuriousCoin")
-set(CN_CURRENCY_TICKER "XFC")
+set(CN_PROJECT_NAME "YOURCOINNAME")
+set(CN_CURRENCY_DISPLAY_NAME "YOURCOINNAME")
+set(CN_CURRENCY_TICKER "YCN")
 ```
 
 **3. Set symbolic link to coin sources at the same level as `src`. For example:**
