@@ -21,7 +21,7 @@ ln -s ../cryptonote cryptonote
 Alternative way is to create git submodule:
 
 ```
-git submodule add https://github.com/cryptonotefoundation/cryptonote.git cryptonote
+git submodule add https://github.com/CoreLedger/Yttrium.git Yttrium
 ```
 
 Replace URL with git remote repository of your coin.
